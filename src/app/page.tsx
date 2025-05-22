@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { logoutUserAction } from "@/app/actions/auth.actions"; // Import the server action
+import Link from "next/link";
 
 export default function Home() {
   return (
